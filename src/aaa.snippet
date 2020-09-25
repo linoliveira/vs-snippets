@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+      <Header>
+          <Title>AAA</Title>
+          <Author>Lino Oliveira</Author>
+          <Description>AAA test pattern.</Description>
+          <Shortcut>aaa</Shortcut>
+      </Header>
+      <Snippet>
+        <Code Language="CSharp">
+<![CDATA[// Arrange
+var target = 1$end$;
+
+// Act
+var result = target.ToString();
+
+// Assert
+Assert.Equal("2", result);]]>
+        </Code>
+        <Declarations>
+          <Literal>
+            <ID>Target</ID>
+            <Default>() => new { }</Default>
+          </Literal>
+          <Literal>
+            <ID>Action</ID>
+            <Default>target()</Default>
+          </Literal>
+          <Literal>
+            <ID>Assertion</ID>
+            <Default>Equal(new {}, result)</Default>
+          </Literal>
+        </Declarations>
+      </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

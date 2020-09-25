@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+      <Header>
+          <Title>Test Method</Title>
+          <Author>Lino Oliveira</Author>
+          <Description>XUnit test method with AAA.</Description>
+          <Shortcut>tmethod</Shortcut>
+      </Header>
+      <Snippet>
+        <Code Language="CSharp">
+<![CDATA[[Fact]
+public void $MethodUnderTest$_$ConditionUnderTest$_$ExpectedOutcome$()
+{
+  var target = 1$end$;
+
+  // Act
+  var result = target.ToString();
+
+  // Assert
+  Assert.Equal("2", result);
+  }]]>
+        </Code>
+        <Declarations>
+          <Literal>
+            <ID>MethodUnderTest</ID>
+            <Default>MethodUnderTest</Default>
+          </Literal>
+          <Literal>
+            <ID>ConditionUnderTest</ID>
+            <Default>ConditionUnderTest</Default>
+          </Literal>
+          <Literal>
+            <ID>ExpectedOutcome</ID>
+            <Default>ExpectedOutcome</Default>
+          </Literal>
+        </Declarations>
+      </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
