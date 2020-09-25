@@ -42,6 +42,7 @@ Assert.Equal("2", result);
 [Fact]
 public void MethodUnderTest_ConditionUnderTest_ExpectedOutcome()
 {
+    // Arrange
     var target = 1;
 
     // Act
