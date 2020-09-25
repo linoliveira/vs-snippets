@@ -57,7 +57,7 @@ public void MethodUnderTest_ConditionUnderTest_ExpectedOutcome()
 I made this for improving my own productivity, but I am glad to accept pull requests with your ideas.
 
 A few guidelines:
-1. KISS the snippets with no clutter with 3 to 5 steps max.
+1. KISS on the snippets with a maximum of 5 steps and no clutter.
 1. You must update the `README.md` in a KISS manner!
 
 ## License
